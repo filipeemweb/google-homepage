@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;;
+}
+
+/* Header section */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    margin: auto;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-top: 5px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 9px;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav ul li a {
+    font-size: .8rem;
+}
+
+header nav ul li img {
+    display: flex;
+    width: 50%;
+    opacity: 50%;
+    margin: auto;
+}
+
+header nav ul li img:hover {
+    opacity: 80%;
+}
+
+#right-top li {
+    margin: 9px 6px;
+}
+
+#right-top li button {
+    background-color: #4287f5;
+    color: white;
+    font-weight: 700;
+    padding: 7px 13px;
+    border: none;
+}
+
+/* Global seciton */
+a {
+    color: rgb(100, 100, 100);
+}
+
+a:hover {
+    border-bottom: 1px solid rgb(100, 100, 100);
+}
+
+/* Main section */
+main {
+    display: flex;
+    height: 55vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+main section div {
+    position: relative;
+    width: 480px;
+    justify-content: center;
+}
+
+#magn, #voice {
+    position: absolute;
+}
+
+#magn {
+    opacity: 50%;
+    width: 20px;
+    top: 14px;
+    left: 15px;
+}
+
+#voice {
+    width: 25px;
+    right: 15px;
+    top: 12px;
+}
+
+input {
+    width: 94%;
+    padding: 13px;
+    border-radius: 40px;
+    border: .5px solid rgba(204, 204, 204, 0.7);;
+}
+
+main section button {
+    border: none;
+    border-radius: 5px;
+    font-size: .9rem;
+    background-color: rgba(238, 238, 238, 0.815);
+    padding: 10px 15px;
+    margin: 0 5px;
+}
+
+/* Footer section */
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+}
+
+footer section {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(238, 238, 238, 0.815);
+    outline: .5px solid rgba(204, 204, 204, 0.521);
+}
+
+footer section ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+}
+
+footer section ul li {
+    display: inline-block;
+    padding: 5px 8px;
+    margin: 5px;
+}
+
+footer section ul li a {
+    font-size: .9rem;
+}
